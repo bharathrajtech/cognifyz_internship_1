@@ -1,0 +1,363 @@
+.intro{
+    width: 100%;
+    height:80px;
+    display: flex;
+    margin-top: 0%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+}
+.logo{
+    width: auto;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    
+}
+
+.cog_clr{
+    color: rgb(158, 42, 225);
+    background-color: rgb(241, 223, 15);
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 35px 15px;
+}
+
+nav ul li a{
+    color: #3b3103;
+    text-decoration: none;
+}
+
+.about{
+    display: flex;
+    background-color: rgb(241, 223, 15);
+}
+
+.intro_img{
+    width: 1500px;
+    height: auto;
+    margin-right: 80px;
+    overflow: hidden;
+    text-align: right;
+    /* width: 2000px; */
+    background: transparent;
+}
+
+.img_cls{
+    /* justify-content: end; */
+    /* margin-left: 300px; */
+}
+
+.intro_con{
+    padding: 120px;
+    padding-left: 40px;
+    /* padding-right: 100px; */
+    background: transparent;
+}
+
+.intro_con > h1{
+    font-size: 50px;
+    background: transparent;
+}
+
+.intro_con > p{
+    background: transparent;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: rgb(34, 47, 74);
+    color: white;
+    font-size: 65px;
+    padding-top: 95px;
+  }
+
+.container{
+    display: grid;
+    background-color: rgb(34, 47, 74);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-bottom: 150px;
+}
+
+.container div img{
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.container div{
+    margin: 120px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    /* border: 2px solid white; */
+    background-color: black;
+    text-align: center;
+    padding-bottom: 60px;
+    border-radius: 30px 30px 30px 30px ;
+}
+
+.container div h3{
+    background-color: transparent;
+    color: rgb(37, 7, 26);
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container div ul li{
+    background-color: transparent;
+    color: rgb(19, 7, 30);
+    font-size: 25px;
+}
+
+.container div ul{
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    text-align: left;
+}
+.container div p{
+    background-color: transparent;
+    color: rgb(19, 7, 30);
+}
+
+.container div a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: 0.15s;
+    background-color: transparent;
+    border: 2px solid black
+}
+.container div a:hover{
+    background: var(--clr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #f6f5f8, rgb(240, 236, 109), rgb(245, 242, 247));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.high_cls{
+    background-color: transparent;
+}
+
+.high_img{
+    overflow: hidden;
+    text-align: right;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+
+.high{
+    display: flex;
+    background-color: transparent;
+}
+
+.highlight{
+    background-color: transparent;
+    margin-right: 300px;
+}
+
+.highlight h1{
+    font-size: 70px;
+    padding-top: 30px;
+    background-color: transparent;
+    text-align: center;
+    padding-left: 40px;
+    color: black;
+    font-weight: 500;
+}
+
+.highlight ul{
+    background-color: transparent;
+    padding-top: 60px;
+    padding-left: 200px;
+    /* text-align: center; */
+}
+
+.highlight ul li{
+    font-size: 30px;
+    background-color: transparent;
+    padding-bottom: 30px;
+}
+
+.qualification{
+    display: flex;
+    background-color: transparent;
+}
+
+.abt_img{
+    overflow: hidden;
+    text-align: left;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+.abt_cls{
+    margin-right: 150px;
+}
+.qualify{
+    background-color: transparent;
+    /* padding-top: 100px; */
+}
+
+.qualify h1, .qualify ul, .qualify ul li{
+    background-color: transparent;
+}
+
+.qualify ul{
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.qualify h1{
+    font-size: 50px;
+    color: black;
+    padding-top: 45px;
+}
+
+.qualify div a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: 0.15s;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-right: 30px;
+}
+
+.qualify div a:hover{
+    background: var(--clr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.apply_learn_btn{
+    margin-top: 90px;
+    background-color: transparent;
+    margin-left: 65px;
+}
+
+.fcontent a:hover{
+    color: #f18930;
+}
+
+.social-icons i:hover{
+    color: #f18930;
+}
+
+.fcontainer{
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.fcontent{
+    background-color: transparent;
+}
+
+.fcontent h2{
+    background-color: transparent;
+    color: yellow;
+    padding-bottom: 10px;
+}
+
+.fcontent p{
+    background-color: transparent;
+    color: white;
+    padding-top: 10px;
+}
+
+.fcontent ul li{
+    background-color: transparent;
+    padding-bottom: 8px;
+}
+
+.fcontent ul{
+    background-color: transparent;
+}
+
+.fcontent ul li a{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+
+.icon_flex li a{
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+
+
+.icon_flex li{
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-right: 13px;
+}
+
+.icon_flex li a i{
+    background-color: transparent;
+}
+
+.icon_flex{
+    display: flex;
+    list-style-type:none;
+}
+
+.bottom-bar{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.bottom-bar p{
+    background-color: transparent;
+    padding: 20px;
+}
